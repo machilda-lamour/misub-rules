@@ -1,0 +1,119 @@
+[custom]
+; Subconverter 订阅转换模板配置
+
+; 规则配置 (rules)
+ruleset=Special Proxy,[]DOMAIN,api.ipify.org
+ruleset=Special Proxy,[]DOMAIN,services.googleapis.cn
+ruleset=Special Proxy,[]DOMAIN,googleapis.cn
+ruleset=Special Proxy,[]DOMAIN,xn--ngstr-lra8j.com
+ruleset=Special Proxy,[]DOMAIN,clientservices.googleapis.com
+ruleset=Gemini AI,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/google-gemini.srs
+ruleset=Copilot AI,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/bing.srs
+ruleset=Block,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/category-ads-all.srs
+ruleset=Test,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/category-speedtest.srs
+ruleset=Test,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/category-ip-geo-detect.srs
+ruleset=Test,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/test-ipv6.srs
+ruleset=国内,[]DOMAIN,gh-proxy.com
+ruleset=国内,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/cn.srs
+ruleset=国内,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geoip/cn.srs
+ruleset=国内,https://gh-proxy.com/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/private.srs
+ruleset=国内,https://gh-proxy.com/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-cn.srs
+ruleset=Games,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/epicgames.srs
+ruleset=Games,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/ea.srs
+ruleset=Games,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/blizzard.srs
+ruleset=Games,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/ubisoft.srs
+ruleset=Games,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/playstation.srs
+ruleset=Games,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/nintendo.srs
+ruleset=Nvidia,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/nvidia.srs
+ruleset=GitHub,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/github.srs
+ruleset=AI,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/meta.srs
+ruleset=AI,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/openai.srs
+ruleset=AI,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/anthropic.srs
+ruleset=AI,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/groq.srs
+ruleset=AI,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/x.srs
+ruleset=AI,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/perplexity.srs
+ruleset=Google,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geoip/google.srs
+ruleset=Google,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/google.srs
+ruleset=Microsoft,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/microsoft.srs
+ruleset=Akamai,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/akamai.srs
+ruleset=Apple,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/apple.srs
+ruleset=Crypto,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/geminiheads/sing/geo/geosite/okx.srs
+ruleset=Crypto,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/bybit.srs
+ruleset=Crypto,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/binance.srs
+ruleset=Stream Media,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/tiktok.srs
+ruleset=Stream Media,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/netflix.srs
+ruleset=Stream Media,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geoip/netflix.srs
+ruleset=Stream Media,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/disney.srs
+ruleset=Stream Media,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/amazon.srs
+ruleset=Stream Media,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/hbo.srs
+ruleset=Stream Media,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/anime.srs
+ruleset=Stream Media,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/spotify.srs
+ruleset=Social,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/reddit.srs
+ruleset=Social,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/x.srs
+ruleset=Social,https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/whatsapp.srs
+ruleset=Social,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/facebook.srs
+ruleset=Social,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/telegram.srs
+ruleset=Social,https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geoip/telegram.srs
+ruleset=国外,https://gh-proxy.com/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/gfw.srs
+ruleset=国外,[]GEOSITE,geolocation-!cn
+ruleset=漏网之鱼,[]FINAL
+
+; 策略组定义 (custom_proxy_group)
+custom_proxy_group=Special Proxy`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Block`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Akamai`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=AI`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Gemini AI`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Copilot AI`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Stream Media`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=GitHub`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Google`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Crypto`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Social`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Games`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Test`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Microsoft`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Nvidia`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Apple`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=Block`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=国外`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=国内`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+custom_proxy_group=漏网之鱼`select`[]DIRECT`[]所有-智选`[]所有-手选`[]香港-故转`[]台湾-故转`[]日本-故转`[]新加坡-故转`[]美国-故转`[]其他-故转`[]REJECT
+
+; 包含所有节点的选择与智能组
+custom_proxy_group=所有-手选`select`.*
+custom_proxy_group=所有-智选`url-test`.*`https://www.gstatic.com/generate_204`3600,,100
+
+; 香港策略组
+custom_proxy_group=香港-故转`fallback`[]香港-手选`[]香港-智选`https://www.gstatic.com/generate_204`3600
+custom_proxy_group=香港-手选`select`(广港|香港|HK|Hong Kong|🇭🇰|HongKong)
+custom_proxy_group=香港-智选`url-test`(广港|香港|HK|Hong Kong|🇭🇰|HongKong)`https://www.gstatic.com/generate_204`3600,,100
+
+; 台湾策略组
+custom_proxy_group=台湾-故转`fallback`[]台湾-手选`[]台湾-智选`https://www.gstatic.com/generate_204`3600
+custom_proxy_group=台湾-手选`select`(广台|台湾|台灣|TW|Tai Wan|🇹🇼|TaiWan|Taiwan)
+custom_proxy_group=台湾-智选`url-test`(广台|台湾|台灣|TW|Tai Wan|🇹🇼|TaiWan|Taiwan)`https://www.gstatic.com/generate_204`3600,,100
+
+; 日本策略组
+custom_proxy_group=日本-故转`fallback`[]日本-手选`[]日本-智选`https://www.gstatic.com/generate_204`3600
+custom_proxy_group=日本-手选`select`(广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan)
+custom_proxy_group=日本-智选`url-test`(广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan)`https://www.gstatic.com/generate_204`3600,,100
+
+; 新加坡策略组
+custom_proxy_group=新加坡-故转`fallback`[]新加坡-手选`[]新加坡-智选`https://www.gstatic.com/generate_204`3600
+custom_proxy_group=新加坡-手选`select`(广新|新加坡|SG|坡|狮城|🇸🇬|Singapore)
+custom_proxy_group=新加坡-智选`url-test`(广新|新加坡|SG|坡|狮城|🇸🇬|Singapore)`https://www.gstatic.com/generate_204`3600,,100
+
+; 美国策略组
+custom_proxy_group=美国-故转`fallback`[]美国-手选`[]美国-智选`https://www.gstatic.com/generate_204`3600
+custom_proxy_group=美国-手选`select`(广美|US|美国|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)
+custom_proxy_group=美国-智选`url-test`(广美|US|美国|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)`https://www.gstatic.com/generate_204`3600,,100
+
+; 其他策略组
+custom_proxy_group=其他-故转`fallback`[]其他-手选`[]其他-智选`https://www.gstatic.com/generate_204`3600
+custom_proxy_group=其他-手选`select`^(?!.*(直连|拒绝|广港|香港|HK|Hong Kong|🇭🇰|HongKong|广台|台湾|台灣|TW|Tai Wan|🇹🇼|TaiWan|Taiwan|广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan|广新|新加坡|SG|坡|狮城|🇸🇬|Singapore|广美|US|美国|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$
+custom_proxy_group=其他-智选`url-test`^(?!.*(直连|拒绝|广港|香港|HK|Hong Kong|🇭🇰|HongKong|广台|台湾|台灣|TW|Tai Wan|🇹🇼|TaiWan|Taiwan|广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan|广新|新加坡|SG|坡|狮城|🇸🇬|Singapore|广美|US|美国|纽约|波特兰|达拉斯|俄勒|凤凰城|费利蒙|洛杉|圣何塞|圣克拉|西雅|芝加|🇺🇸|United States)).*$`https://www.gstatic.com/generate_204`3600,,100
+
+; 节点过滤与保留
+enable_rule_generator=true
+overwrite_original_rules=true
